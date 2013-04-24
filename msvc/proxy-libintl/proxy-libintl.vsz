@@ -1,0 +1,8 @@
+VSWIZARD 7.0
+Wizard=VsWizard.VsWizardEngine.8.0
+
+Param="WIZARD_NAME = proxy-libintl"
+Param="ABSOLUTE_PATH = F:\+GTK-SOURCES\gnu-windows\src\proxy-libintl\msvc\proxy-libintl"
+Param="FALLBACK_LCID = 1033"
+Param="WIZARD_UI = FALSE"
+Param="SOURCE_FILTER = txt"
