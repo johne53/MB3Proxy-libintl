@@ -11,4 +11,6 @@ $debug32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Debug\\Mixbu
 $release32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Release\\Mixbus\\bin";
 $debug32_target_folder = "C:\\Program Files\\Mixbus\\bin";
 $release32_target_folder = "E:\\Mixbus\\bin";
+$debug32_pango_modules_folder = "C:\\Program Files (x86)\\Mixbus\\lib\\pango-1.0\\modules\\win32";
+$release32_pango_modules_folder = "E:\\Mixbus\\lib\\pango-1.0\\modules\\win32";
 $target_sxs_folder = "F:\\+GTK-SOURCES\\gnu-windows\\include\\ardourext\\sys";
