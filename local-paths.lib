@@ -1,7 +1,7 @@
 $perl_path = "c:/strawberry/perl/bin/perl.exe";
 $data_root_dir = "F:/+GTK-SOURCES/gnu-win32/src/glib/gio/prefix";
 $glib_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Glib";
-$gtk_build_project_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gtk+2\\msvc";
+$gtk_build_project_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gtk-2\\msvc";
 $pango_build_project_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Pango\\msvc";
 $cairo_build_project_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Cairo\\msvc";
 $generic_include_folder = "F:\\+GTK-SOURCES\\gnu-windows\\include";
