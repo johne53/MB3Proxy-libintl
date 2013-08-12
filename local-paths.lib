@@ -1,3 +1,10 @@
+$pango_api_version = "1.0";
+$atk_api_version = "2.0";
+$glib_api_version = "2.0";
+$gtk_api_version = "2.0";
+$gdk_pixbuf_api_version = "2.0";
+$sigc_api_version = "2.0";
+
 $m4_path = "C:/M4/bin/m4.exe";
 $perl_path = "c:/strawberry/perl/bin/perl.exe";
 $data_root_dir = "F:/+GTK-SOURCES/gnu-win32/src/glib/gio/prefix";
@@ -7,6 +14,8 @@ $glibmm_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Glibmm";
 $gtk_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gtk-2";
 $gtkmm_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gtkmm";
 $gdk_pixbuf_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gdk-pixbuf";
+$atkmm_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Atkmm";
+$pangomm_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Pangomm";
 
 $gtk_build_project_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gtk-2\\msvc";
 $pango_build_project_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Pango\\msvc";
