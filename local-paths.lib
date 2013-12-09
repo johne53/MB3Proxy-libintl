@@ -6,7 +6,7 @@ $gdk_pixbuf_api_version = "2.0";
 $sigc_api_version = "2.0";
 
 $prefix = "F:/+GTK-SOURCES/gnu-windows";
-$m4_path = "C:/M4/bin/m4.exe";
+$m4_path = "m4.exe";
 $perl_path = "c:/strawberry/perl/bin/perl.exe";
 $data_root_dir = "F:/+GTK-SOURCES/gnu-win32/src/glib/gio/prefix";
 
