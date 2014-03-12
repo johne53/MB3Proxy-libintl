@@ -28,15 +28,15 @@ $generic_library_folder = "F:\\+GTK-SOURCES\\gnu-windows\\lib";
 $generic_win32_library_folder = "F:\\+GTK-SOURCES\\gnu-windows\\lib\\win32";
 $generic_win32_binary_folder = "F:\\+GTK-SOURCES\\gnu-windows\\bin";
 
-$debug32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Debug\\Mixbus\\bin";
-$release32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Release\\Mixbus\\bin";
+$debug32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Debug\\Mixbus3\\bin";
+$release32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Release\\Mixbus3\\bin";
 
-$debug32_target_folder = "C:\\Program Files\\Mixbus\\bin";
-$release32_target_folder = "E:\\Mixbus\\bin";
+$debug32_target_folder = "C:\\Program Files\\Mixbus3\\bin";
+$release32_target_folder = "E:\\Mixbus3\\bin";
 
-$debug32_pango_modules_folder = "C:\\Program Files (x86)\\Mixbus\\lib\\pango-1.0\\modules\\win32";
-$release32_pango_modules_folder = "E:\\Mixbus\\lib\\pango-1.0\\modules\\win32";
-$debug32_pixbuf_loaders_folder = "C:\\Program Files (x86)\\Mixbus\\lib\\gtk-2.0\\loaders\\win32";
-$release32_pixbuf_loaders_folder = "E:\\Mixbus\\lib\\gtk-2.0\\loaders\\win32";
+$debug32_pango_modules_folder = "C:\\Program Files (x86)\\Mixbus3\\lib\\pango-1.0\\modules\\win32";
+$release32_pango_modules_folder = "E:\\Mixbus3\\lib\\pango-1.0\\modules\\win32";
+$debug32_pixbuf_loaders_folder = "C:\\Program Files (x86)\\Mixbus3\\lib\\gtk-2.0\\loaders\\win32";
+$release32_pixbuf_loaders_folder = "E:\\Mixbus3\\lib\\gtk-2.0\\loaders\\win32";
 
 $target_sxs_folder = "F:\\+GTK-SOURCES\\gnu-windows\\include\\ardourext\\sys";
