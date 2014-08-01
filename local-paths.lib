@@ -10,7 +10,8 @@ $m4_path = "m4.exe";
 $perl_path = "c:/strawberry/perl/bin/perl.exe";
 $data_root_dir = "F:/+GTK-SOURCES/gnu-win32/src/glib/gio/prefix";
 
-$jack_build_root_folder = "F:\\+GTK-SOURCES\\Jack2\\src";
+$packager_folder_local = "E:\\local";
+$jack_build_root_folder = "F:\\+GTK-SOURCES\\Jack2";
 $glib_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Glib";
 $glibmm_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Glibmm";
 $gtk_build_root_folder = "F:\\+GTK-SOURCES\\gnu-windows\\src\\MB3Gtk-2";
