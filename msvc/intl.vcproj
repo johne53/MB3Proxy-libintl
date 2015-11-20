@@ -179,8 +179,8 @@
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
-				Description="Re-locate &apos;local-paths.lib&apos;"
-				CommandLine="copy /Y &quot;..\local-paths.lib&quot; &quot;..\..\local-paths.lib&quot;"
+				Description="Re-locate &apos;local-paths.lib&apos; and &apos;gtkmmconfig.h&apos;"
+				CommandLine="copy /Y &quot;..\..\..\src\MB3Gtkmm\gtk\gtkmmconfig.h&quot; &quot;..\..\..\include\gtkmmconfig.h&quot;&#x0D;&#x0A;copy /Y &quot;..\local-paths.lib&quot; &quot;..\..\local-paths.lib&quot;&#x0D;&#x0A;"
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
