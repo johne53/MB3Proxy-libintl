@@ -28,12 +28,18 @@ $generic_include_folder = "F:\\+GTK-SOURCES\\gnu-windows\\include";
 $generic_library_folder = "F:\\+GTK-SOURCES\\gnu-windows\\lib";
 $generic_win32_library_folder = "F:\\+GTK-SOURCES\\gnu-windows\\lib\\win32";
 $generic_win32_binary_folder = "F:\\+GTK-SOURCES\\gnu-windows\\bin";
+$generic_win64_library_folder = "F:\\+GTK-SOURCES\\gnu-windows\\lib\\win64";
+$generic_win64_binary_folder = "F:\\+GTK-SOURCES\\gnu-windows\\bin";
 
 $debug32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Debug\\Mixbus3\\bin";
 $release32_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win32\\TestApps\\Release\\Mixbus3\\bin";
+$debug64_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win64\\TestApps\\Debug\\Mixbus3\\bin";
+$release64_testsuite_folder = "F:\\+GTK-SOURCES\\gnu-win64\\TestApps\\Release\\Mixbus3\\bin";
 
 $debug32_target_folder = "C:\\Program Files\\Mixbus3\\bin";
 $release32_target_folder = "E:\\Mixbus3\\bin";
+$debug64_target_folder = "C:\\Program Files\\Mixbus3\\bin";
+$release64_target_folder = "E:\\Mixbus3\\bin";
 
 $debug32_pango_modules_folder = "C:\\Program Files (x86)\\Mixbus3\\lib\\pango-1.0\\modules\\win32";
 $release32_pango_modules_folder = "E:\\Mixbus3\\lib\\pango-1.0\\modules\\win32";
