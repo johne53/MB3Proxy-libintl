@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "intl", "intl.vcxproj", "{4EC975AA-64C3-42B8-8060-FB45194089E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug 32|x86 = Debug 32|x86
+		Release 32 with Debugging Capability|x86 = Release 32 with Debugging Capability|x86
+		Release 32|x86 = Release 32|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EC975AA-64C3-42B8-8060-FB45194089E0}.Debug 32|x86.ActiveCfg = Release with Debugging Capability|x64
+		{4EC975AA-64C3-42B8-8060-FB45194089E0}.Debug 32|x86.Build.0 = Release with Debugging Capability|x64
+		{4EC975AA-64C3-42B8-8060-FB45194089E0}.Release 32 with Debugging Capability|x86.ActiveCfg = Release with Debugging Capability|x64
+		{4EC975AA-64C3-42B8-8060-FB45194089E0}.Release 32 with Debugging Capability|x86.Build.0 = Release with Debugging Capability|x64
+		{4EC975AA-64C3-42B8-8060-FB45194089E0}.Release 32|x86.ActiveCfg = Release with Debugging Capability|x64
+		{4EC975AA-64C3-42B8-8060-FB45194089E0}.Release 32|x86.Build.0 = Release with Debugging Capability|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
