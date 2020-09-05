@@ -23,14 +23,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -38,7 +38,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debugging Capability|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
     <WholeProgramOptimization>false</WholeProgramOptimization>
@@ -100,7 +100,6 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)$(ProjectName)64D.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
     <Bscmake>
@@ -108,7 +107,7 @@
       <OutputFile>.\Debug\proxy-libintl/proxy-libintl.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>copy /Y "$(OutDir)$(TargetName).lib" "$(GenericWin64LibraryFolder)\$(TargetName).lib"
+      <Command>copy /Y "$(TargetPath)" "$(GenericWin64LibraryFolder)\$(TargetName)$(TargetExt)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -132,7 +131,6 @@
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)$(ProjectName)64.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
     <Bscmake>
@@ -140,7 +138,7 @@
       <OutputFile>.\Release\proxy-libintl/proxy-libintl.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>copy /Y "$(OutDir)$(TargetName).lib" "$(GenericWin64LibraryFolder)\$(TargetName).lib"
+      <Command>copy /Y "$(TargetPath)" "$(GenericWin64LibraryFolder)\$(TargetName)$(TargetExt)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -148,8 +146,7 @@
     <PreBuildEvent>
       <Message>Re-locate 'local-paths.lib' and 'gtkmmconfig.h'</Message>
       <Command>copy /Y "..\..\..\src\MB3Gtkmm\gtk\gtkmmconfig.h" "..\..\..\include\gtkmmconfig.h"
-copy /Y "..\local-paths.lib" "..\..\local-paths.lib"
-</Command>
+copy /Y "..\local-paths.lib" "..\..\local-paths.lib"</Command>
     </PreBuildEvent>
     <ClCompile>
       <Optimization>Disabled</Optimization>
@@ -170,7 +167,6 @@ copy /Y "..\local-paths.lib" "..\..\local-paths.lib"
       <Culture>0x0809</Culture>
     </ResourceCompile>
     <Lib>
-      <OutputFile>$(OutDir)$(ProjectName)64RDC.lib</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Lib>
     <Bscmake>
@@ -178,7 +174,7 @@ copy /Y "..\local-paths.lib" "..\..\local-paths.lib"
       <OutputFile>.\Release\proxy-libintl/proxy-libintl.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>copy /Y "$(OutDir)$(TargetName).lib" "$(GenericWin64LibraryFolder)\$(TargetName).lib"
+      <Command>copy /Y "$(TargetPath)" "$(GenericWin64LibraryFolder)\$(TargetName)$(TargetExt)"
 </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
