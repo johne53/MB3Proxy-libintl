@@ -43,7 +43,11 @@ $release64_target_folder = "E:\\Mixbus3\\bin";
 
 $debug32_pango_modules_folder = "C:\\Program Files (x86)\\Mixbus3\\lib\\pango-1.0\\modules\\win32";
 $release32_pango_modules_folder = "E:\\Mixbus3\\lib\\pango-1.0\\modules\\win32";
+$debug64_pango_modules_folder = "C:\\Program Files\\Mixbus3\\lib\\pango-1.0\\modules\\win64";
+$release64_pango_modules_folder = "E:\\Mixbus3\\lib\\pango-1.0\\modules\\win64";
 $debug32_pixbuf_loaders_folder = "C:\\Program Files (x86)\\Mixbus3\\lib\\gtk-2.0\\loaders\\win32";
 $release32_pixbuf_loaders_folder = "E:\\Mixbus3\\lib\\gtk-2.0\\loaders\\win32";
+$debug64_pixbuf_loaders_folder = "C:\\Program Files\\Mixbus3\\lib\\gtk-2.0\\loaders\\win64";
+$release64_pixbuf_loaders_folder = "E:\\Mixbus3\\lib\\gtk-2.0\\loaders\\win64";
 
 $target_sxs_folder = "F:\\+GTK-SOURCES\\gnu-windows\\include\\ardourext\\sys";
